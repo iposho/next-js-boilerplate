@@ -11,7 +11,9 @@
   "keywords": [
     "nextjs-starter-kit",
     "nextjs-template",
-    "nextjs-boilerplate"
+    "nextjs-boilerplate",
+    "boilerplate",
+    "starter-kit"
   ],
   "scripts": {
     "dev": "next dev -p 5000",

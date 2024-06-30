@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Next.js Boilerplate
+
+This is a customizable boilerplate project built on **Next.js**. It provides a solid foundation for building modern web applications with a focus on performance and developer experience.
+
+## Features
+
+- **TypeScript Support**: Built with TypeScript for type safety and improved development workflow.
+- **ESLint and Prettier**: Integrated code formatting and linting to ensure consistent code style.
+- **Sass/SCSS Support**: Easily manage styles using SCSS for maintainable and scalable CSS.
+- **Jest and React Testing Library**: Set up for unit and integration testing to ensure your components work as expected.
+- **Folder Structure**: Organized folder structure to keep your project modular and maintainable.
+- **Environment Variables**: Simple management of environment variables for different environments.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/iposho/next-js-boilerplate.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd next-js-boilerplate
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Development
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the application on `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To create an optimized build for production, run:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will output the build files to the `.next` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Testing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To run tests, use:
 
-## Deploy on Vercel
+```bash
+npm test
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This will execute all test files using Jest and React Testing Library.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Feel free to submit issues and pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
