@@ -1,41 +1,40 @@
-
 # Next.js Boilerplate
 
-This is a customizable boilerplate project built on **Next.js**. It provides a solid foundation for building modern web applications with a focus on performance and developer experience.
+A minimal and customizable template for building modern web applications using **Next.js**.
+
+## Project Details
+
+- **Project Name**: Next.js Boilerplate
+- **Description**: My personal template for Next.js
+- **Author**: Pavel Kuzyakin [kuzyak.in](mailto:pavel@kuzyak.in)
+- **Version**: 1.0.0
 
 ## Features
 
-- **TypeScript Support**: Built with TypeScript for type safety and improved development workflow.
-- **ESLint and Prettier**: Integrated code formatting and linting to ensure consistent code style.
-- **Sass/SCSS Support**: Easily manage styles using SCSS for maintainable and scalable CSS.
-- **Jest and React Testing Library**: Set up for unit and integration testing to ensure your components work as expected.
-- **Folder Structure**: Organized folder structure to keep your project modular and maintainable.
-- **Environment Variables**: Simple management of environment variables for different environments.
+- **Next.js**: Fast server-side rendering and static site generation.
+- **TypeScript**: Enhances code quality with static typing.
+- **ESLint**: Ensures consistent code style.
+- **Sass/SCSS**: Simplifies styling using SCSS.
+- **Project Structure**: Clear folder organization for maintainability.
+- **Environment Variables**: Easy configuration for different environments.
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/)
+- [Node.js](https://nodejs.org/) (version 16 or higher)
 - [npm](https://www.npmjs.com/)
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/iposho/next-js-boilerplate.git
-   ```
-
-2. Navigate into the project directory:
-
-   ```bash
    cd next-js-boilerplate
    ```
 
-3. Install dependencies:
+2. **Install dependencies**:
 
    ```bash
    npm install
@@ -43,38 +42,56 @@ Ensure you have the following installed:
 
 ### Development
 
-To start the development server, run:
+To start the development server:
 
 ```bash
 npm run dev
 ```
 
-This will start the application on `http://localhost:3000`.
+The application will be available at [http://localhost:5000](http://localhost:5000).
 
 ### Building for Production
 
-To create an optimized build for production, run:
+To build the application for production:
 
 ```bash
 npm run build
 ```
 
-This will output the build files to the `.next` directory.
+The build will be created in the `.next` directory.
 
 ### Testing
 
-To run tests, use:
+Currently, tests are not set up. You can add them as needed.
 
-```bash
-npm test
-```
+## Project Structure
 
-This will execute all test files using Jest and React Testing Library.
+- **`/src`**: Main source code, including components and styles.
+- **`/public`**: Static files and assets.
+- **`/styles`**: Global and component-specific styles.
+- **`/tests`**: Tests for components (can be added in the future).
+
+## Scripts
+
+- **`dev`**: Start the development server.
+- **`build`**: Build for production.
+- **`start`**: Run the production server.
+- **`lint`**: Lint code with ESLint.
+
+## Configuration
+
+- **Environment Variables**: Use `.env.local` for managing environment variables.
+- **ESLint**: Configuration is in `.eslintrc.json`.
+- **Stylelint**: Configuration is in `.stylelintrc.json`.
 
 ## Contributing
 
-Feel free to submit issues and pull requests. Contributions are welcome!
+Contributions are welcome! Please submit issues or pull requests.
 
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+*This README was generated with the assistance of ChatGPT.*
