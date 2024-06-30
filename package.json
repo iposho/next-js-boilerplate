@@ -3,10 +3,10 @@
   "version": "5.7.0",
   "author": " Pavel Kuzyakin <pavel@kuzyak.in> (kuzyak.in)",
   "description": "My personal next.js template",
-  "homepage": "https://github.com/next-js-template-iposho",
+  "homepage": "https://github.com/iposho/next-js-boilerplate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/next-js-template-iposho/kuzyak.in.git"
+    "url": "https://github.com/iposho/next-js-boilerplate.git"
   },
   "keywords": [
     "nextjs-starter-kit",
