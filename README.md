@@ -1,3 +1,5 @@
+<img src="/public/logo.webp" width="300px" align="right" />
+
 # Next.js Boilerplate
 
 A minimal and customizable template for building modern web applications using **Next.js**.
